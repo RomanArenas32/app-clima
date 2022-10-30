@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: grid;
+  place-content: center;
+  background-color: rgb(68, 165, 165);
+}
+
+h1{
+  font-size: 25px;
+}
+h2{
+  font-size: 20px;
+}
+
+.target{
+  width: 400px;
+  height: 450px;
+  background-color: skyblue;
+  border-radius: 3rem;
+  display: grid;
+  align-self: center;
+  text-align: center;
+  margin-top: 15rem;
+  padding: 5rem 2rem;
+}
+.buttonChange{
+  position: relative;
+  width: 6rem;
+  height: 4rem;
+  justify-content: center;
+  margin-left: 7rem;
+  border-radius: 4rem;
+}
