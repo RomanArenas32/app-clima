@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: url("/src/montania.jpg") no-repeat center top;
 }
 
 body{
@@ -9,7 +10,7 @@ body{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   display: grid;
   place-content: center;
-  background-color: rgb(68, 165, 165);
+  color: aliceblue;
 }
 
 h1{
@@ -27,7 +28,7 @@ h2{
   display: grid;
   align-self: center;
   text-align: center;
-  margin-top: 15rem;
+
   padding: 5rem 2rem;
 }
 .buttonChange{
@@ -37,4 +38,5 @@ h2{
   justify-content: center;
   margin-left: 7rem;
   border-radius: 4rem;
+  color: aliceblue;
 }
